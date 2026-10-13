@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #16171b;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  border-bottom: 1px solid #e4e6ea;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-size: 15px;
+}
+
+.menu a {
+  color: #6c7076;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 24px;
+}
+
+.menu a:hover {
+  color: #0d4cd3;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  padding: 72px 0;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  color: #0d4cd3;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0 0 18px;
+  color: #16171b;
+}
+
+.lead {
+  margin: 0 0 28px;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #6c7076;
+  max-width: 46ch;
+}
+
+.btn {
+  background: #0d4cd3;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px;
+}
+
+.wide-photo {
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px;
+  margin-top: 48px;
+}
+
+.section {
+  padding: 56px 0 72px;
+  border-top: 1px solid #e4e6ea;
+}
+
+h2 {
+  font-size: 26px;
+  letter-spacing: -0.01em;
+  margin: 0 0 28px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 48px;
+}
+
+.about-text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.about-text + .about-text {
+  margin-top: 16px;
+}
+
+.facts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.facts li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid #e4e6ea;
+}
+
+.facts span {
+  color: #6c7076;
+}
+
+.footer {
+  border-top: 1px solid #e4e6ea;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.footer-name {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.footer-note {
+  margin: 0;
+  color: #6c7076;
+  font-size: 14px;
+}
